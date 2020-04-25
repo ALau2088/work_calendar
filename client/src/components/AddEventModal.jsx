@@ -67,6 +67,58 @@ class AddEventModal extends Component {
   }
 
   render() {
+    // const options = (
+    //   <Fragment>
+    //     <option>12:00am</option>
+    //     <option>12:30am</option>
+    //     <option>1:00am</option>
+    //     <option>1:30am</option>
+    //     <option>2:00am</option>
+    //     <option>2:30am</option>
+    //     <option>3:00am</option>
+    //     <option>3:30am</option>
+    //     <option>4:00am</option>
+    //     <option>4:30am</option>
+    //     <option>5:00am</option>
+    //     <option>5:30am</option>
+    //     <option>6:00am</option>
+    //     <option>6:30am</option>
+    //     <option>7:00am</option>
+    //     <option>7:30am</option>
+    //     <option>8:00am</option>
+    //     <option>8:30am</option>
+    //     <option>9:00am</option>
+    //     <option>9:30am</option>
+    //     <option>10:00am</option>
+    //     <option>10:30am</option>
+    //     <option>11:00am</option>
+    //     <option>11:30am</option>
+    //     <option>12:00pm</option>
+    //     <option>12:30pm</option>
+    //     <option>1:00pm</option>
+    //     <option>1:30pm</option>
+    //     <option>2:00pm</option>
+    //     <option>2:30pm</option>
+    //     <option>3:00pm</option>
+    //     <option>3:30pm</option>
+    //     <option>4:00pm</option>
+    //     <option>4:30pm</option>
+    //     <option>5:00pm</option>
+    //     <option>5:30pm</option>
+    //     <option>6:00pm</option>
+    //     <option>6:30pm</option>
+    //     <option>7:00pm</option>
+    //     <option>7:30pm</option>
+    //     <option>8:00pm</option>
+    //     <option>8:30pm</option>
+    //     <option>9:00pm</option>
+    //     <option>9:30pm</option>
+    //     <option>10:00pm</option>
+    //     <option>10:30pm</option>
+    //     <option>11:00pm</option>
+    //     <option>11:30pm</option>
+    //   </Fragment>
+    // );
     const options = (() => {
       let times = ['12:00am', '12:30am'];
       // generate am
